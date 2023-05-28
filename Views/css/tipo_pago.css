@@ -1,0 +1,107 @@
+/* Estilo para el header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e9e5dd;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Espacio entre el header y body */
+main {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3925a;
+    color: #000000;
+}
+
+
+.registration-form {
+    background-color: #e9e5dd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+label {
+    color: #000000;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #5c3c04;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+select {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+  }
+
+.btn:hover {
+    background-color: #6dd900;
+    color: #fff;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #e9e5dd;
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

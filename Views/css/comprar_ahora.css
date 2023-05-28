@@ -1,0 +1,123 @@
+/* Estilos del header*/
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #e9e5dd;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Espacio entre el header y body*/
+main {
+	padding-top: 80px;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3925a;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pay-now-btn, .continue-shopping-btn {
+    padding: 10px 20px;
+    background-color: #5c3c04;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.pay-now-btn:hover, .continue-shopping-btn:hover {
+    background-color: #6dd900;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos futuristas */
+
+h2 {
+    font-size: 24px;
+    color: #000000;
+}
+
+table {
+    border: none;
+    color: #000000;
+}
+
+th, td {
+    border-bottom: 1px solid #000000;
+}
+
+tfoot td {
+    color: #fff;
+    font-size: 18px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+.pay-now-btn, .continue-shopping-btn {
+    background-color: #5c3c04;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.pay-now-btn:hover, .continue-shopping-btn:hover {
+    background-color: #6dd900;
+    color: #fff;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #e9e5dd;
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

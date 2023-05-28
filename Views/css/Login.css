@@ -1,0 +1,107 @@
+/* Estilo para el encabezado */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #e9e5dd;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+}
+
+/* Espacion entre el header y el login de la página */
+main {
+	padding-top: 80px;
+}
+
+/* Fondo y color de fuente de la página */
+body {
+	font-family: Arial, sans-serif;
+    background-color: #b3925a;
+    color: #000000;
+}
+
+/* Título de la página */
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+}
+
+.login-form h2 {
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+
+/* Etiquetas y campos de entrada */
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #e9e5dd;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    color: #000000;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Botones */
+.btn {
+    background-color: #5c3c04;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #6dd900;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+/* Enlace de contraseña olvidada */
+.forgot-password {
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #e9e5dd;
+    color: #999;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
